@@ -1,0 +1,32 @@
+//
+//  AppDefine.h
+//  Photogether
+//
+//  Created by IPaPa on 12/10/20.
+//  Copyright (c) 2012年 IPaPa. All rights reserved.
+//
+
+#ifndef Photogether_AppDefine_h
+#define Photogether_AppDefine_h
+#define DEFAULT_TIME_OUT 20
+#define PHOTOGETHER_NOTIFICATION_IMAGESENT @"PHOTOGETHER_NOTIFICATION_IMAGESENT"
+#define PHOTOGETHER_NOTIFICATION_IMAGEGET @"PHOTOGETHER_NOTIFICATION_IMAGEGET"
+#define PHOTOGETHER_NOTIFICATION_IMAGEGET_DONE @"PHOTOGETHER_NOTIFICATION_IMAGEGET_DONE"
+#define ALBUMNAME_MARK @"＠＠"
+//#define ALBUMNAME_MARK @"@@##"
+#define FLICKR_PHOTO_PER_PAGE 100
+typedef enum {
+    FLICKR_PHOTO_SIZE_Square,
+    FLICKR_PHOTO_SIZE_LargeSquare,
+    FLICKR_PHOTO_SIZE_Thumbnail,
+    FLICKR_PHOTO_SIZE_Small,
+    FLICKR_PHOTO_SIZE_Small_320,
+    FLICKR_PHOTO_SIZE_Medium,
+    FLICKR_PHOTO_SIZE_Medium_640,
+    FLICKR_PHOTO_SIZE_Medium_800,
+    FLICKR_PHOTO_SIZE_Large,
+    FLICKR_PHOTO_SIZE_Original,
+    
+    
+}FLICKR_PHOTO_SIZE;
+#endif
